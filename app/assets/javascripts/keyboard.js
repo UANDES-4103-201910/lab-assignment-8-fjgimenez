@@ -5,7 +5,7 @@ $(() => {
 		constructor(id_kcontainer,id_targetelement){
 			this.kcontainer = $(id_kcontainer);
 			this.targetelement = $(id_targetelement);
-		}
+		}    
 
 		KeyPressed(key){
 			key = key.toLowerCase()
